@@ -3,8 +3,10 @@
 // you should use the empty () syntax of _ syntax.
 
 
-function noParam() {
-
+let noParam = () => {
+    let firstName = "Josh"
+    let lastName = "Bailey"
+    return (`${firstName}${lastName}`)
 }
 
 
